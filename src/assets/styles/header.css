@@ -1,5 +1,12 @@
 .lbl-header {
   color: #dddcdc !important;
   font-size: 24px;
-  font-weight: bold;
+  font-weight: 400;
+}
+
+.txt-navlinks {
+  color: #f7f7f7 !important;
+  padding: 0em 1em !important;
+  font-weight: 400;
+  font-size: 16px;
 }

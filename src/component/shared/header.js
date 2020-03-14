@@ -1,11 +1,12 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "../../assets/styles/header.css";
+import $ from "jquery";
 
 const Header = () => {
   return (
     <>
-      <Navbar bg="dark" variant="dark">
+      <Navbar id="navpanel" className="navbar fixed-top navbar-light bg-white">
         <Navbar.Brand href="#home">
           <img
             alt=""
@@ -15,7 +16,7 @@ const Header = () => {
             className="d-inline-block align-top"
           />{" "}
         </Navbar.Brand>
-        <Nav className="ml-auto mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link className="txt-navlinks" href="#home">
             Home
           </Nav.Link>
@@ -30,11 +31,6 @@ const Header = () => {
           </Nav.Link>
           <Nav.Link className="txt-navlinks" href="#contact">
             Contact
-          </Nav.Link>
-        </Nav>
-        <Nav>
-          <Nav.Link className=" lbl-header" href="#home">
-            Shishir
           </Nav.Link>
         </Nav>
       </Navbar>

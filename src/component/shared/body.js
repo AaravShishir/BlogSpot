@@ -1,17 +1,17 @@
 import React from "react";
-import "../../assets/styles/body.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Dashboard from "../tabs/dashboard";
+import "../../assets/styles/shared/body.css";
 
 const Body = () => {
   return (
-    <>
-      <div>
-        <img
-          alt=""
-          src="./images/Background.jpg"
-          className="col-sm-12 img-padding"
-        />
-      </div>
-    </>
+    <Router>
+      <Switch>
+        <Route exact path="/">
+          <Dashboard />
+        </Route>
+      </Switch>
+    </Router>
   );
 };
 

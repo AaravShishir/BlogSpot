@@ -1,7 +1,6 @@
 import React from "react";
 import "../../assets/styles/shared/footer.css";
 import "@fortawesome/fontawesome-free/css/all.css";
-import $ from "jquery";
 
 const Footer = () => {
   return (

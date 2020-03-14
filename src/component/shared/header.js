@@ -1,7 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "../../assets/styles/shared/header.css";
-import $ from "jquery";
 
 const Header = () => {
   return (

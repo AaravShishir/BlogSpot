@@ -1,3 +1,42 @@
 .img-padding {
     padding: 0px !important;
 }
+
+.home-background {
+    background-image: url('../../images/Background.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.home-content {
+    padding-top: 40vh;
+    padding-left: 10vw;
+    margin-bottom: 0px;
+}
+
+.home-intro {
+    text-align: left;
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home-description {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+
+.home-intro>p {
+    margin-bottom: 0px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.pull-right {
+    padding-left: 12vh;
+}
